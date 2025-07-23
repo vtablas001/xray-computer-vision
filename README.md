@@ -16,7 +16,7 @@ Inspired by global best practices, similar AI models have shown diagnostic perfo
 
 ---
 
-## 🩻 Target Conditions
+## Target Conditions
 
 The AI system is trained to detect and classify the following diseases based on chest X-ray images:
 
