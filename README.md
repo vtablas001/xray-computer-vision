@@ -36,15 +36,21 @@ These conditions were selected for their **high prevalence**, **radiographic vis
 
 ---
 
-## Libraries and Tools Used
+## Language & Core Tools
 
-| 📦 Library       | 🔍 Purpose                                  |
-|------------------|---------------------------------------------|
-| 🗂️ `os`          | File system operations                     |
-| 🎲 `random`      | Reproducibility, randomization              |
-| 📊 `pandas`      | Data handling and manipulation              |
-| 📈 `numpy`       | Numerical operations                        |
-| 📉 `matplotlib`  | Data visualization                          |
-| 🧠 `tensorflow`  | Deep learning framework                     |
-| 🔧 `keras`       | High-level API for building neural networks |
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-Data%20Validation-0E7C86?logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI%20Server-121212?logo=uvicorn&logoColor=white)](https://www.uvicorn.org/)
+
+
+## Libraries
+
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?logo=pandas)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-orange?logo=matplotlib)](https://matplotlib.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Keras](https://img.shields.io/badge/Keras-Neural%20Networks-D00000?logo=keras&logoColor=white)](https://keras.io/)
+[![OS](https://img.shields.io/badge/os-Standard%20Library-lightgrey)](https://docs.python.org/3/library/os.html)
+[![Random](https://img.shields.io/badge/random-Standard%20Library-lightgrey)](https://docs.python.org/3/library/random.html)
+
 
