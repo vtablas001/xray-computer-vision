@@ -1,6 +1,6 @@
 # AI-Powered Chest X-Ray Diagnosis for El Salvador's Ministry of Health
 
-This project leverages **computer vision and artificial intelligence (AI)** to support **early, automated detection of respiratory diseases** through chest X-ray analysis. Developed in partnership with the **Ministry of Health (MINSAL)** and aligned with **UNDP’s 2025 AI for Sustainable Development Atlas**, the system aims to **empower medical professionals with AI tools** for faster and more accurate diagnosis—especially in resource-constrained settings.
+This project leverages **computer vision and artificial intelligence (AI)** to support **early, automated detection of respiratory diseases** through chest X-Ray analysis. Developed in partnership with the **Ministry of Health (MINSAL)** and aligned with **UNDP’s 2025 AI for Sustainable Development Atlas**, the system aims to **empower medical professionals with AI tools** for faster and more accurate diagnosis, especially in highly demanded and resource-constrained settings.
 
 ---
 
