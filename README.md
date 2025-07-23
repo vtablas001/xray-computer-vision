@@ -1,10 +1,10 @@
-# 🧠 AI-Powered Chest X-Ray Diagnosis for El Salvador's Ministry of Health
+# AI-Powered Chest X-Ray Diagnosis for El Salvador's Ministry of Health
 
 This project leverages **computer vision and artificial intelligence (AI)** to support **early, automated detection of respiratory diseases** through chest X-ray analysis. Developed in partnership with the **Ministry of Health (MINSAL)** and aligned with **UNDP’s 2025 AI for Sustainable Development Atlas**, the system aims to **empower medical professionals with AI tools** for faster and more accurate diagnosis—especially in resource-constrained settings.
 
 ---
 
-## 🌍 Project Context
+## Project Context
 
 Respiratory diseases remain a major public health challenge in El Salvador. This initiative is designed to help:
 
@@ -28,7 +28,7 @@ These conditions were selected for their **high prevalence**, **radiographic vis
 
 ---
 
-## 🧬 Technical Approach
+## Technical Approach
 
 - **Transfer Learning**: We employ a pre-trained **VGG16** Convolutional Neural Network (CNN) from ImageNet, fine-tuned for medical image classification.
 - **Data Augmentation**: Techniques such as **rotation**, **cropping**, and **brightness adjustment** are applied to enhance model generalization without requiring massive datasets.
@@ -36,13 +36,15 @@ These conditions were selected for their **high prevalence**, **radiographic vis
 
 ---
 
-## 🧰 Libraries and Tools Used
+## Libraries and Tools Used
 
-```python
-import os
-import random
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import tensorflow as tf
-from tensorflow import keras
+| 📦 Library       | 🔍 Purpose                                  |
+|------------------|---------------------------------------------|
+| 🗂️ `os`          | File system operations                     |
+| 🎲 `random`      | Reproducibility, randomization              |
+| 📊 `pandas`      | Data handling and manipulation              |
+| 📈 `numpy`       | Numerical operations                        |
+| 📉 `matplotlib`  | Data visualization                          |
+| 🧠 `tensorflow`  | Deep learning framework                     |
+| 🔧 `keras`       | High-level API for building neural networks |
+
