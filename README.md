@@ -77,4 +77,4 @@ To run the analysis locally using the provided notebook:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/vtablas001/xray-computer-vision.git](https://github.com/vtablas001/xray-computer-vision.git)
+   git clone https://github.com/vtablas001/xray-computer-vision.git
