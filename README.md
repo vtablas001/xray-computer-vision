@@ -1,57 +1,80 @@
-# AI-Powered Chest X-Ray Diagnosis for El Salvador's Ministry of Health
+# AI-Powered Chest X-Ray Diagnosis for El Salvador's Public Health System
 
-This project leverages **computer vision and artificial intelligence (AI)** to support **early, automated detection of respiratory diseases** through chest X-Ray analysis. Developed in partnership with the **Ministry of Health (MINSAL)** and aligned with **UNDP’s 2025 AI for Sustainable Development Atlas**, the system aims to **empower medical professionals with AI tools** for faster and more accurate diagnosis, especially in highly demanded and resource-constrained settings.
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Framework](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Status](https://img.shields.io/badge/Status-Prototype%20Demo-green)]()
+[![SDG 3](https://img.shields.io/badge/SDG-3_Good_Health-009DAE?style=flat&logo=un-goals&logoColor=white)](https://sdgs.un.org/goals/goal3)
 
----
+## 🏥 Project Overview
+This project leverages computer vision and artificial intelligence (AI) to support early, automated detection of respiratory diseases through chest X-Ray analysis. 
 
-## Project Context
+Developed as a proof-of-concept for the **Ministry of Health (MINSAL)** and the **Teachers' Wellbeing Institute (ISBM)**, this system demonstrates how AI can empower medical professionals with tools for faster and more accurate diagnosis. It is aligned with UNDP’s 2025 AI for Sustainable Development Atlas, aiming to improve healthcare access in resource-constrained settings.
 
-Respiratory diseases remain a major public health challenge in El Salvador. This initiative is designed to help:
-
-- **Reduce diagnostic delays**
-- **Alleviate the burden on radiologists**
-- **Improve healthcare access in underserved areas**
-
-Inspired by global best practices, similar AI models have shown diagnostic performance comparable to **six independent radiologists**. This offers a promising pathway for supporting national health systems.
-
----
-
-## Target Conditions
-
-The AI system is trained to detect and classify the following diseases based on chest X-ray images:
-
-1. **Pulmonary Tuberculosis**
-2. **Pneumonia** (bacterial or viral)
-3. **COVID-19**
-
-These conditions were selected for their **high prevalence**, **radiographic visibility**, and **impact on the Salvadoran healthcare system**.
+### 🔗 Live Demo
+**[Launch the Web App Demo](https://v0-pulmonary-ai-demo.vercel.app/)**
 
 ---
 
-## Technical Approach
-
-- **Transfer Learning**: We employ a pre-trained **VGG16** Convolutional Neural Network (CNN) from ImageNet, fine-tuned for medical image classification.
-- **Data Augmentation**: Techniques such as **rotation**, **cropping**, and **brightness adjustment** are applied to enhance model generalization without requiring massive datasets.
-- **Model Deployment**: The AI model is built using **open-source tools** in Python to ensure **sustainability, transparency, and local capacity building**.
+## ⚠️ Medical Disclaimer
+> **This tool is intended for research and educational purposes only.** It is designed to assist, not replace, medical professionals. It is not a certified medical device and should not be used as the sole basis for diagnosis or treatment.
 
 ---
 
-## Language & Core Tools
+## 🎯 Context & Objectives
+Respiratory diseases remain a major public health challenge in El Salvador. This initiative is designed to:
+1.  **Reduce diagnostic delays** in high-demand units.
+2.  **Alleviate the burden on radiologists** by automating the triage of normal vs. pathological scans.
+3.  **Improve healthcare access** in rural or underserved areas where specialists are scarce.
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Pydantic](https://img.shields.io/badge/Pydantic-Data%20Validation-0E7C86?logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI%20Server-121212?logo=uvicorn&logoColor=white)](https://www.uvicorn.org/)
+## 🧠 Technical Approach & Data Scale
 
+### 📂 The Dataset: 10,000+ Images
+To ensure clinical relevance and statistical significance, the model was trained and validated on a robust dataset of **over 10,000 chest X-ray images**. 
+* **Scale:** 10,000+ processed images.
+* **Diversity:** Includes a balanced mix of "Normal," "Viral Pneumonia," and "COVID-19" cases to prevent model bias.
+* **Preprocessing:** All images underwent standardization (resizing, CLAHE contrast enhancement) to simulate real-world input variability.
 
-## Libraries
+### ⚙️ The Model: VGG16 & Transfer Learning
+* **Architecture:** We employ a pre-trained **VGG16 Convolutional Neural Network (CNN)**.
+* **Transfer Learning:** Weights from ImageNet were used as a starting point, followed by fine-tuning specific layers to recognize radiographic features (opacities, consolidations) rather than generic objects.
+* **Data Augmentation:** Techniques such as rotation, zoom, and brightness shifts were applied during training to improve the model's ability to generalize to new, unseen X-rays.
 
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?logo=pandas)](https://pandas.pydata.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy&logoColor=white)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-orange?logo=matplotlib)](https://matplotlib.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![Keras](https://img.shields.io/badge/Keras-Neural%20Networks-D00000?logo=keras&logoColor=white)](https://keras.io/)
-[![OS](https://img.shields.io/badge/os-Standard%20Library-lightgrey)](https://docs.python.org/3/library/os.html)
-[![Random](https://img.shields.io/badge/random-Standard%20Library-lightgrey)](https://docs.python.org/3/library/random.html)
+### 🔎 Target Conditions
+The system classifies images into three categories:
+* **Normal** (Healthy)
+* **Viral Pneumonia**
+* **COVID-19**
 
-## Demo
-https://v0-pulmonary-ai-demo.vercel.app/
+---
+
+## 📓 Interactive Analysis (Jupyter Notebook)
+The core logic of this project is documented in the included Jupyter Notebook. This file serves as the technical proof-of-concept, providing a transparent walkthrough of:
+* **Exploratory Data Analysis (EDA):** Visualization of the 10,000+ image dataset distribution.
+* **Training Pipeline:** Real-time training logs showing accuracy/loss convergence.
+* **Performance Metrics:** Confusion matrices and classification reports on the test set.
+
+[**📄 View the Source Notebook**](./notebooks/xray_classification_vgg16.ipynb) *(Make sure this path matches your actual file)*
+
+---
+
+## 🛠️ Language & Core Tools
+
+### Primary Language
+* **Python 3.10+**: Chosen for its dominance in the data science and medical AI ecosystem.
+
+### Key Libraries & Frameworks
+* **Deep Learning:** `TensorFlow`, `Keras` (Model architecture and training).
+* **Computer Vision:** `OpenCV` (`cv2`), `Pillow` (Image preprocessing and augmentation).
+* **Data Manipulation:** `NumPy`, `Pandas` (Tensor handling and dataset management).
+* **Visualization:** `Matplotlib`, `Seaborn` (Heatmaps, confusion matrices, and training curves).
+* **Deployment:** `FastAPI` (Backend inference), `Vercel` (Frontend hosting).
+
+---
+
+## 🚀 Usage
+
+To run the analysis locally using the provided notebook:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/vtablas001/xray-computer-vision.git](https://github.com/vtablas001/xray-computer-vision.git)
