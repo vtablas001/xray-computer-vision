@@ -11,7 +11,7 @@ This project leverages computer vision and artificial intelligence (AI) to suppo
 Developed as a proof-of-concept for the **Ministry of Health (MINSAL)** and the **Teachers' Wellbeing Institute (ISBM)**, this system demonstrates how AI can empower medical professionals with tools for faster and more accurate diagnosis. It is aligned with UNDP’s 2025 AI for Sustainable Development Atlas, aiming to improve healthcare access in resource-constrained settings.
 
 ### 🔗 Live Demo
-**[Launch the Web App Demo](https://v0-pulmonary-ai-demo.vercel.app/)**
+**https://v0-pulmonary-ai-demo.vercel.app/
 
 ---
 
@@ -53,7 +53,7 @@ The core logic of this project is documented in the included Jupyter Notebook. T
 * **Training Pipeline:** Real-time training logs showing accuracy/loss convergence.
 * **Performance Metrics:** Confusion matrices and classification reports on the test set.
 
-[**📄 View the Source Notebook**](./notebooks/xray_classification_vgg16.ipynb) *(Make sure this path matches your actual file)*
+[**📄 View the Source Notebook**](./notebooks/xray_classification_vgg16.ipynb)
 
 ---
 
