@@ -53,7 +53,7 @@ The core logic of this project is documented in the included Jupyter Notebook. T
 * **Training Pipeline:** Real-time training logs showing accuracy/loss convergence.
 * **Performance Metrics:** Confusion matrices and classification reports on the test set.
 
-[**📄 View the Source Notebook**](./notebooks/xray_classification_vgg16.ipynb)
+[**📄 View the Source Notebook**](Torax_X_Ray_pneumonia_CNN.ipynb)
 
 ---
 
