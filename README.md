@@ -3,20 +3,20 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Status](https://img.shields.io/badge/Status-Prototype%20Demo-green)]()
-[![SDG 3](https://img.shields.io/badge/SDG-3_Good_Health-009DAE?style=flat&logo=un-goals&logoColor=white)](https://sdgs.un.org/goals/goal3)
+
 
 ## 🏥 Project Overview
-This project leverages computer vision and artificial intelligence (AI) to support early, automated detection of respiratory diseases through chest X-Ray analysis. 
+This project leverages convolutional neural networks to power computer vision and artificial intelligence to support early, automated detection of respiratory diseases through chest X-Ray analysis. 
 
 Developed as a proof-of-concept for the **Ministry of Health (MINSAL)** and the **Teachers' Wellbeing Institute (ISBM)**, this system demonstrates how AI can empower medical professionals with tools for faster and more accurate diagnosis. It is aligned with UNDP’s 2025 AI for Sustainable Development Atlas, aiming to improve healthcare access in resource-constrained settings.
 
 ### 🔗 Live Demo
-**https://v0-pulmonary-ai-demo.vercel.app/
+**https://v0-pulmonary-ai-demo.vercel.app/**
 
 ---
 
 ## ⚠️ Medical Disclaimer
-> **This tool is intended for research and educational purposes only.** It is designed to assist, not replace, medical professionals. It is not a certified medical device and should not be used as the sole basis for diagnosis or treatment.
+> **This tool is intended for research and development purposes only.** It is designed to assist, not replace, medical professionals. It is not a certified medical device and should not be used as the sole basis for diagnosis or treatment.
 
 ---
 
